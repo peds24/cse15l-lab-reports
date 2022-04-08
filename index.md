@@ -13,3 +13,5 @@ The cow **jumped** over the *moon*.
 `print (Hello World)`
 ***
 > Markdown is very cool, cant wait to keep using it!
+
+[Link to a funny video] (https://www.youtube.com/watch?v=eX2qFMC8cFo)
