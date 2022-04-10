@@ -54,13 +54,15 @@ class WhereAmI {
         System.out.println(System.getProperty("user.name"));
         System.out.println(System.getProperty("user.home"));
         System.out.println(System.getProperty("user.dir"));
-        System.out.println("hello");
     }
 }
 ```
-* Now back on the server terminal type the following command and hit enter:
+* Now back on the VScode terminal type the following command and hit enter:
 `scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
+* Now try to log back into the server computer and in the main directory type **ls**, you should see the new file listed there.
+
+![moveFile]()
 
 
 
