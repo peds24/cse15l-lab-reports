@@ -43,8 +43,4 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 
 
-<<<<<<< HEAD
-=======
-![Lab 1 screenshot](https://peds24.github.io/cse15l-lab-reports/lab1ss.png "A screen shot of the terminal accessing the ucsd ieng6 server computers.")
->>>>>>> 971af39a369df603a1735834e6300f77ad8ecfd0
 
