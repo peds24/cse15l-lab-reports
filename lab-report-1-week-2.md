@@ -64,6 +64,79 @@ class WhereAmI {
 
 ![moveFile]()
 
+## SSH keys
+* Logging in can be easier than typing in your password everytime you want to access theserver, lets explore how we can make it quicker.
 
+* Using ssh keys solve that issue by creating a pair of keys (a public and private one). You copy the public key on the server and keep the private one on your machine, the **ssh** command will then pair the two keys together instead of your passowrd and log you in.
+
+* Lets set it up, open the terminal on your machine (not the VScode one) for better results and type in the following command: `$ ssh-keygen`
+
+* Your screen should be showing the following text:
+
+> **IMPORTANT NOTE:** Make sure you do not add a passphrase for this step
+
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
+
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+
+Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.
+
+Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.
+
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local
+
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
+> **Note:** The keys randomart will look differently for you
+
+* Now that a key was created, the next step is to copy the private key to the server.
+
+* Log back into the server and type the following command: `$ mkdir .ssh`
+    * If there is a message that tells you a key has already been created, that is okay, procceed with the next step
+
+* Log out and now back on your personal terminal type the following command:
+```
+scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+> **Note:** Make sure you use your own account for the step and fill in the **user-name** with your machines username.
+
+* Now try to log back into the server and admire the speed it takes, no password should be promted when you do this step.
+
+![noPassword]()
+> Image of remote access without password
+
+## Optimizing Remote Running
+* We can optimize code running by using quotation marks (**" "**) enclosing commands when logging into the server.
+
+* The command will log into the server, run the code in quotes then exit.
+
+* Here is an example of a command you can run:
+
+`$ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+
+* Here is a image of the result of running this command:
+
+![sshOpt]()
+
+* Multiple commands can be run using semicolons on the same line for more optimization and speed, for example: 
+
+`$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI `
+
+> **Quick tip:** Using the up arrow on your keyboard will recall the last command you run, keep pressing it and you can cycle through your most recent commands. 
 
 
