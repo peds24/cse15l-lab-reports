@@ -1,4 +1,5 @@
-Hello there, welcome to my index page
+# Welcome Page
+#### This is my CS15L GitHub page, here you can find my lab reports and other assignments from the class.
 
 [Link to my Markdown testing](https://peds24.github.io/cse15l-lab-reports/markdownTest.html)
 
