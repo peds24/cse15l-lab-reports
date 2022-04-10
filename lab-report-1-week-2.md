@@ -39,6 +39,27 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * Here is what the screen looks like after running all four of these commands:
 
+[CommandRunning]()
+
+### Moving files using SCP
+* Now onto moving and copying files to the server computer. Using the following code create a file named
+**WhereAmI.java** in VScode.
+
+* Paste the following code to the file and once finished compile it using the integrated terminal using **javac WhereAmI.java**.
+
+```
+class WhereAmI {
+    public static void main(String[] args) {
+        System.out.println(System.getProperty("os.name"));
+        System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getProperty("user.home"));
+        System.out.println(System.getProperty("user.dir"));
+        System.out.println("hello");
+    }
+}
+```
+* Now back on the server terminal type the following command and hit enter:
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 
 
