@@ -11,7 +11,7 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * Your window should look like this:
 
-![Vscode_SS](https://github.com/peds24/cse15l-lab-reports/blob/971af39a369df603a1735834e6300f77ad8ecfd0/VScode_ss.png)
+![Vscode_SS](VScode_ss.png)
 
 ## Remotely Connecting
 * The next step is loging into your lab account and connecting to a lab computer remotely.
@@ -22,13 +22,13 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * You will be promted by a password and the screen will look like this:
 
-![PassWord](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/password.png)
+![PassWord](password.png)
 
 > **Note:** When typing your account password there will apear to be nothing on the screen being typed. This is a security feature of the remote access, make sure you type it in correctly and hit enter, it should register.
 
 * This is what you will see after a successful login:
 
-![GoodLogin](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/login_good.png)
+![GoodLogin](login_good.png)
 
 ## Running some commands
 * Next its time to play around with the directory and termianl commands, here are some you can try out:
@@ -39,7 +39,7 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * Here is what the screen looks like after running all four of these commands:
 
-![CommandRunning](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/command_running.png)
+![CommandRunning](command_running.png)
 
 ### Moving files using SCP
 * Now onto moving and copying files to the server computer. Using the following code create a file named
@@ -62,7 +62,7 @@ class WhereAmI {
 
 * Now try to log back into the server computer and in the main directory type **ls**, you should see the new file listed there.
 
-![moveFile](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/moveFile.png)
+![moveFile](moveFile.png)
 
 ## SSH keys
 * Logging in can be easier than typing in your password everytime you want to access theserver, lets explore how we can make it quicker.
@@ -117,7 +117,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/author
 
 * Now try to log back into the server and admire the speed it takes, no password should be promted when you do this step.
 
-![noPassword](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/noPassword.png)
+![noPassword](noPassword.png)
 > Image of remote access without password
 
 ## Optimizing Remote Running
@@ -131,7 +131,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/author
 
 * Here is a image of the result of running this command:
 
-![sshOpt](https://github.com/peds24/cse15l-lab-reports/blob/bc2f428f33dc863b976872d2faf8de818689301e/sshOpt.png)
+![sshOpt](sshOpt.png)
 
 * Multiple commands can be run using semicolons on the same line for more optimization and speed, for example: 
 
