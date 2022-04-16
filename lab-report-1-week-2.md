@@ -5,7 +5,7 @@ This tutorial will walk you through from installing VScode on you machine to set
 **ssh keys** and **optimizing remote running**.
 
 ## Instaling VScode
-* Visit the [Vscode website][https://code.visualstudio.com] and download the correct version for your machine
+* Visit the [Vscode website](https://code.visualstudio.com) and download the correct version for your machine
 
 * Next follow the instalation steps and open up the application, as well as the terminal using the menu at the top.
 
