@@ -6,6 +6,8 @@
 ## Lab Reports
 [Lab Report 1](https://peds24.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
+[Lab Report 2]()
+
 ## Misc.
 [Link to my Markdown testing](https://peds24.github.io/cse15l-lab-reports/markdownTest.html)
 
