@@ -7,7 +7,7 @@
 #### Symptom
 ![ouput1](ouput1.png)
 
-#### Explination 
+#### Explanation 
 *Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.*
 
 ***
@@ -19,7 +19,7 @@
 #### Symptom
 ![ouput2](output2.png)
 
-#### Explination 
+#### Explanation 
 *Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.*
 
 ***
@@ -30,7 +30,7 @@
 
 #### Symptom
 ![ouput3](output3.png)
-**There is no error in compilation, yet this input is invalid and the code should be able to catch that. What we are texting are links in .md files so the example passed here** `[link]          (link.html)` **has the incorrect formatting so it would not be a valid link. The code should identify thi serror and not parse it, as its not a valid input.**
+>There is no error in compilation, yet this input is invalid and the code should be able to catch that. What we are texting are links in .md files so the example passed here** `[link]          (link.html)` has the incorrect formatting so it would not be a valid link. The code should identify thi serror and not parse it, as its not a valid input.
 
-#### Explination 
+#### Explanation 
 *Write 2-3 sentences describing the relationship between the bug, the symptom, and the failure-inducing input.*
