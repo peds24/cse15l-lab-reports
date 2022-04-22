@@ -30,7 +30,10 @@ The failure input now is missing the square brackets and a simlar error occures 
 
 #### Symptom
 ![ouput3](output3.png)
->There is no error in compilation, yet this input is invalid and the code should be able to catch that. What we are texting are links in .md files so the example passed here `[link             (link.html)` has the incorrect formatting so it would not be a valid link. The code should identify thi serror and not parse it, as its not a valid input.
+>There is no error in compilation, yet this input is invalid and the code should be able to catch that. What we are texting are links in .md files so the example passed here `[link] (lots of space goes in between) (link.html)` has the incorrect formatting so it would not be a valid link. The code should identify thi serror and not parse it, as its not a valid input.
 
 #### Explanation 
 The final bug is tricky and would require more attention onto catching, as a symptom is not immediate. The code manages to run and no error is thrown by the code, yet there it runs in a way it shouldnt. The code will not return the link due to a formatting error. The bug is that the correct output is not being retured. Because of the bad formatting the code should catch this bug and return an erro rmessage explaining the invalid inoput. The symptom here is the expected outcome deffering from the real oyutcome. 
+
+***
+**NOTE:** *if one of these is rejected, switch to a case where there i no string in rthe file to read, will break code, add if statment and bug is the code not knowing wht to do with empty files, symptom is error, bad input is test file, adding if statments solves the bug and that removes the symptoms(warnings and output)*
