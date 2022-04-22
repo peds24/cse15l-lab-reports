@@ -35,5 +35,3 @@ The failure input now is missing the square brackets and a simlar error occures 
 #### Explanation 
 The final bug is tricky and would require more attention onto catching, as a symptom is not immediate. The code manages to run and no error is thrown by the code, yet there it runs in a way it shouldnt. The code will not return the link due to a formatting error. The bug is that the correct output is not being retured. Because of the bad formatting the code should catch this bug and return an erro rmessage explaining the invalid inoput. The symptom here is the expected outcome deffering from the real oyutcome. 
 
-***
-**NOTE:** *if one of these is rejected, switch to a case where there i no string in rthe file to read, will break code, add if statment and bug is the code not knowing wht to do with empty files, symptom is error, bad input is test file, adding if statments solves the bug and that removes the symptoms(warnings and output)*
