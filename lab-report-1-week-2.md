@@ -11,7 +11,7 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * Your window should look like this:
 
-![Vscode_SS](VScode_ss.png)
+![Vscode_SS](LabReport1_images/VScode_ss.png)
 
 ## Remotely Connecting
 * The next step is loging into your lab account and connecting to a lab computer remotely.
@@ -22,13 +22,13 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * You will be promted by a password and the screen will look like this:
 
-![PassWord](password.png)
+![PassWord](LabReport1_images/password.png)
 
 > **Note:** When typing your account password there will apear to be nothing on the screen being typed. This is a security feature of the remote access, make sure you type it in correctly and hit enter, it should register.
 
 * This is what you will see after a successful login:
 
-![GoodLogin](login_good.png)
+![GoodLogin](LabReport1_images/login_good.png)
 
 ## Running some commands
 * Next its time to play around with the directory and termianl commands, here are some you can try out:
@@ -39,7 +39,7 @@ This tutorial will walk you through from installing VScode on you machine to set
 
 * Here is what the screen looks like after running all four of these commands:
 
-![CommandRunning](command_running.png)
+![CommandRunning](LabReport1_images/command_running.png)
 
 ### Moving files using SCP
 * Now onto moving and copying files to the server computer. Using the following code create a file named
@@ -62,7 +62,7 @@ class WhereAmI {
 
 * Now try to log back into the server computer and in the main directory type **ls**, you should see the new file listed there.
 
-![moveFile](moveFile.png)
+![moveFile](LabReport1_images/moveFile.png)
 
 ## SSH keys
 * Logging in can be easier than typing in your password everytime you want to access theserver, lets explore how we can make it quicker.
@@ -117,7 +117,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/author
 
 * Now try to log back into the server and admire the speed it takes, no password should be promted when you do this step.
 
-![noPassword](noPassword.png)
+![noPassword](LabReport1_images/noPassword.png)
 > Image of remote access without password
 
 ## Optimizing Remote Running
@@ -131,7 +131,7 @@ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22xxx@ieng6.ucsd.edu:~/.ssh/author
 
 * Here is a image of the result of running this command:
 
-![sshOpt](sshOpt.png)
+![sshOpt](LabReport1_images/sshOpt.png)
 
 * Multiple commands can be run using semicolons on the same line for more optimization and speed, for example: 
 
