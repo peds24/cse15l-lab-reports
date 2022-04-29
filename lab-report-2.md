@@ -26,7 +26,7 @@ The failure input now is missing the square brackets and a simlar error occures 
 ## Example 3
 ### Error on strings with space "in between"
 ![spaceError](LabReport2_images/error3.png)
-[Link to the test file that promted the error](https://github.com/peds24/markdown-parser/blob/c430fa89f03a6383d4b77ac2485af86b43ed9cff/spaceBetween.md)
+[Link to the test file that promted the error](https://github.com/peds24/markdown-parser/blob/831718e63642a5ee21b31ea7049c11d95934f689/spaceBetween.md)
 
 #### Symptom
 ![ouput3](LabReport2_images/output3.png)
