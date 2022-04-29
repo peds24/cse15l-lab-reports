@@ -30,8 +30,7 @@ The failure input now is missing the square brackets and a simlar error occures 
 
 #### Symptom
 ![ouput3](LabReport2_images/output3.png)
->There is no error in compilation, yet this input is invalid and the code should be able to catch that. What we are texting are links in .md files so the example passed here `[link] (lots of space goes in between) (link.html)` has the incorrect formatting so it would not be a valid link. The code should identify thi serror and not parse it, as its not a valid input.
 
 #### Explanation 
-The final bug is tricky and would require more attention onto catching, as a symptom is not immediate. The code manages to run and no error is thrown by the code, yet there it runs in a way it shouldnt. The code will not return the link due to a formatting error. The bug is that the correct output is not being retured. Because of the bad formatting the code should catch this bug and return an erro rmessage explaining the invalid inoput. The symptom here is the expected outcome deffering from the real oyutcome. 
+The input is not breaking the code as a compilation error or run time errror but it is producing an unexpected output. The input has a line in between the second square braket and first parenthesis and the code should see that there is this space and shuld not return the link. The correct output should be an empty list []. The symptom here is the unexpected ouput given by the falirue induciojg input. The bug in the code is the missing if statments that should catch that space as invalid and return an empty list.
 
