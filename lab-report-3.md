@@ -24,12 +24,11 @@ Host ieng6
 * Here is where my private key is located on my computer:
 ![privateKey](LabReport3/privateKey.png)
 
+* Here is an example of me running git commands to push a commit of a new file created to the main branch:
+![commitEvidence](LabReport3/commitEvidence.png)
+[link to the commit on GitHub](https://github.com/peds24/cse15l-lab-reports/commit/5895767b457dbeb2abfe013eb8c21df72ae7665d)
 
-Show running git commands to commit and push a change to Github while logged into your ieng6 account.
-Show a link for the resulting commit.
-
-
-Copy whole directories with scp -r
+## Copy whole directories with scp -r
 Show copying your whole markdown-parse directory to your ieng6 account.
 Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
 Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
