@@ -13,12 +13,18 @@ Host ieng6
 ```
 * Now whenever I want to log into the server, instead of typing out `.ssh cs15lsp22abn@ieng6.ucsd.edu`, I can by-pass that and use the host name I decided, which was ieng6: `ssh ieng6`
 
+* Below is an example of me using the stremalined login to copy a file to the server:
+![fileCopy](LabReport3/fileCopy.png)
 
 
+## Setup Github Access from ieng6
+* Here is where my public key is stored on the Github page:
+![sshLocation](LabReport3/sshLocation.png)
 
-Setup Github Access from ieng6
-Show where the public key you made is stored on Github and in your user account (screenshot).
-Show where the private key you made is stored on your user account (but not its contents) as a screenshot.
+* Here is where my private key is located on my computer:
+![privateKey](LabReport3/privateKey.png)
+
+
 Show running git commands to commit and push a change to Github while logged into your ieng6 account.
 Show a link for the resulting commit.
 
