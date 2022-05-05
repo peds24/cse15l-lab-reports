@@ -16,7 +16,7 @@ Host ieng6
 * Below is an example of me using the stremalined login to copy a file to the server:
 ![fileCopy](LabReport3/fileCopy.png)
 
-
+****
 ## Setup Github Access from ieng6
 * Here is where my public key is stored on the Github page:
 ![sshLocation](LabReport3/sshLocation.png)
@@ -28,6 +28,7 @@ Host ieng6
 ![commitEvidence](LabReport3/commitEvidence.png)
 [link to the commit on GitHub](https://github.com/peds24/cse15l-lab-reports/commit/5895767b457dbeb2abfe013eb8c21df72ae7665d)
 
+****
 ## Copy whole directories with scp -r
 Show copying your whole markdown-parse directory to your ieng6 account.
 Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
