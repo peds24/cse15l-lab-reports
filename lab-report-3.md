@@ -30,8 +30,16 @@ Host ieng6
 
 ****
 ## Copy whole directories with scp -r
-Show copying your whole markdown-parse directory to your ieng6 account.
-Show logging into your ieng6 account after doing this and compiling and running the tests for your repository.
-Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+* Using the command scp -r. I managed to copy the markdownparse directory to the server:
+![copyRepo](LabReport3/copyRepo.png)
+
+* Here is the evidence that the directory was cpied and here is the jUnit test being run on the MarkdownParseTest.java:
+![ieng6Compile](LabReport3/ieng6Compile.png)
+
+
+* Here is a the command used to copy the directory and run it in the same lines:
+`scp -r. ieng6:markdownparseCopy; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`
+
+![oneLineEvidence](LabReport3/oneLineEvidence.png)
 
 
