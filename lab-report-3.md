@@ -22,6 +22,7 @@ Host ieng6
 ![sshLocation](LabReport3/sshLocation.png)
 
 * Here is where my private key is located on my computer:
+
 ![privateKey](LabReport3/privateKey.png)
 
 * Here is an example of me running git commands to push a commit of a new file created to the main branch:
