@@ -26,6 +26,7 @@ Host ieng6
 
 * Here is an example of me running git commands to push a commit of a new file created to the main branch:
 ![commitEvidence](LabReport3/commitEvidence.png)
+
 [link to the commit on GitHub](https://github.com/peds24/cse15l-lab-reports/commit/5895767b457dbeb2abfe013eb8c21df72ae7665d)
 
 ****
