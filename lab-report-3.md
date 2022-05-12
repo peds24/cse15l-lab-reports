@@ -35,14 +35,9 @@ Host ieng6
 * Using the command scp -r. I managed to copy the markdownparse directory to the server:
 ![copyRepo](LabReport3/copyRepo.png)
 
-* Here is the evidence that the directory was cpied and here is the jUnit test being run on the MarkdownParseTest.java:
+* Here is the evidence that the directory was copied and here is the jUnit test being run on the MarkdownParseTest.java:
 ![ieng6Compile](LabReport3/ieng6Compile.png)
 
 
 * Here is a the command used to copy the directory and run it in the same lines:
-`scp -r . ieng6:~/markCopy; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; ssh ieng6; cd markCopy; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`
-
-* [Link to .txt file that contains the output of the command](LabReport3/Error.txt)
-> **Note:** I cannot see the downfall to this command as the output shows that it stops when it logs into the server. the extra command for navigating to the created directory is not run and also the ruinning of the jUnit tests. Any feedback would be helpful.
-
-
+`scp -r *.java *.md lib/ ieng6:~/markCopy; ssh ieng6; cd markCopy; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest`
