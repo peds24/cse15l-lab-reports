@@ -54,15 +54,14 @@
 ### Expected Output
 **Only Valid Link:**
 ```
-[nested link](a.com)
-
-[a nested parenthesized url](a.com(()))
-
-[some escaped \[ brackets \]](example.com)
+[this title text is really long and takes up more than 
+one line](
+https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule
+)
 ```
 **Expected Result:**
 ```
-[a.com, a.com((, example.com]
+[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
 ```
 
 ### Evidence of Code --> Test
