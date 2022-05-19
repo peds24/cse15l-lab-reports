@@ -19,8 +19,10 @@
 ![snippet1](/LabReport4/snippet1test.png)
 
 ### Personal Implementation
+![personalFail1](/LabReport4/personalFail1.png)
 
 ### Week 7 Implementation
+![repoFail1](/LabReport4/repoFail1.png)
 
 ---
 ## Snippet 2
@@ -35,15 +37,18 @@
 ```
 **Expected Result:**
 ```
-[a.com, a.com, example.com]
+[a.com, a.com((, example.com]
 ```
 
 ### Evidence of Code --> Test
 ![snippet2](/LabReport4/snippet2test.png)
 
 ### Personal Implementation
+**Passed the jUnit Test**
 
 ### Week 7 Implementation
+![repoFail2](/LabReport4/repoFail2.png)
+
 ---
 ## Snippet 3
 ### Expected Output
@@ -57,15 +62,18 @@
 ```
 **Expected Result:**
 ```
-[a.com, a.com, example.com]
+[a.com, a.com((, example.com]
 ```
 
 ### Evidence of Code --> Test
 ![snippet3](/LabReport4/snippet3test.png)
 
 ### Personal Implementation
+![personalFail3](/LabReport4/personalFail3.png)
 
 ### Week 7 Implementation
+![repoFail3](/LabReport4/repoFail3.png)
+
 ---
 # Questions
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
