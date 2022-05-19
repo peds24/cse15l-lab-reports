@@ -1,7 +1,7 @@
 # Lab Report 4
 **Repository Links**
-* [Personal Repository]()
-* [Week 7 Repository]()
+* [Personal Repository](https://github.com/peds24/markdown-parser)
+* [Week 7 Repository](https://github.com/TuannDang/markdown-parser)
 ---
 ## Snippet 1
 ### Expected Output
