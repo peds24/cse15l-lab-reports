@@ -2,9 +2,9 @@
 **Repository Links**
 * [Personal Repository](https://github.com/peds24/markdown-parser)
 * [Week 7 Repository](https://github.com/TuannDang/markdown-parser)
----
 
 > **Note:** Images show only my personal MardownParse tests, but to test for the other parse implementation, you would just change line 4 to the different java file to be accessed.
+
 ## Snippet 1
 ### Expected Output
 **Only Valid Link:**
