@@ -11,7 +11,7 @@ I found the test descrepancy by running making a copy of the test file directory
 ## Test 1
 ![file194](/LabReport5/file194.png)
 
-**Common Mark Output for the File**
+### Common Mark Output for the File
 ![common194](/LabReport5/common194.png)
 
 Here for this test both implementations are incorrrect because they both produce a wrong output. My implementation gives an error because it sees a space or invalid character between parenthesis and square bracket and exits the loop there. The other implementation returns (url), whioch is wrong as the common mark website returns Foo*bar].
