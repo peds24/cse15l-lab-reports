@@ -21,7 +21,7 @@ Here for this test both implementations are incorrrect because they both produce
 ![codeSnippet](/LabReport5/codeSnippet.png)
 
 The orange box is enclosing the if statment that is getting triggered once the parser recognizes another character that isnt a parenthesis after a square bracket. The bug here involves the break statment in the if statment. The break is preventing the parser to reach the second link that is the valid one. The fix for this would be to add a continue statment or change the constraints of the if statment. The general fix would be to maybe keep a boolean counter to see if something is correct or wrong so it can go chek the rest of the file. In the end if the counter returns false, then its okay to return an empty list, but maybe when it finds a valid link it gets triggered to True and then extracts the valid link.
-****
+***
 
 ## Test 2
 ![file201](/LabReport5/file201.png)
